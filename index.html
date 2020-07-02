@@ -31,17 +31,25 @@
           serie tv?
         </p>
         <hr class="my-4" />
-        <p>
-          Clicca qui sotto e i tuoi problemi si risolveranno. Tutti. Per sempre.
-        </p>
-        <a
-          class="btn btn-primary btn-lg"
-          href="#"
-          role="button"
-          id="start-me-up"
-          >Sono scem@. Scegli per me</a
-        >
+        <div class="d-none" id="intro-button">
+          <p>
+            Clicca qui sotto e i tuoi problemi si risolveranno. Tutti. Per sempre.
+          </p>
+          <a
+            class="btn btn-primary btn-lg"
+            href="#"
+            role="button"
+            id="start-me-up"
+            >Sono scem@. Scegli per me</a
+          >
       </div>
+      <div class="loading">
+          <img src="assets/series-loader.gif">
+          Un attimo di pazienza, mamma mia che fretta. Ma dove dovete andare poi. Stronzi.
+          E' un servizio gratuito.
+      </div>
+      </div>
+      <!--  DISPLAY DELLA SERIE  -->
       <div class="card text-center rounded-sm d-none" id="series-card">
         <div class="card-header">
           Genere: Cyberpunk
@@ -58,7 +66,7 @@
             With supporting text below as a natural lead-in to additional
             content.
           </p>
-          <a href="#" class="btn btn-dark">BluffCatch!</a>
+          <a href="#" id="bluff-catch" class="btn btn-dark">BluffCatch!</a>
         </div>
         <div class="card-footer text-muted">
           release date : 2020
