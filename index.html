@@ -1,60 +1,85 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>BluffCatchSeries</title>
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
-</head>
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+      integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk"
+      crossorigin="anonymous"
+    />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/PapaParse/5.2.0/papaparse.min.js"></script>
+  </head>
 
-<body style="background-color: #25222B">
+  <body style="background-color: #25222b;">
     <header>
-        <div class="container text-center" style="color: seashell; padding: 3rem;">
-            <h1>BluffCatchSeries</h1>
-            <h2>BluffCatch a random Serie to watch!</h2>
-        </div>
+      <div
+        class="container text-center"
+        style="color: seashell; padding: 3rem;"
+      >
+        <h1>BluffCatchSeries</h1>
+        <h2>BluffCatch a random Serie to watch!</h2>
+      </div>
     </header>
     <div class="container">
-        <div class="jumbotron" id="intro">
-            <h1 class="display-4">Ciao amic@</h1>
-            <p class="lead">Stai litigando con il tuo ragazzo / la tua ragazza per scegliere una serie tv?</p>
-            <hr class="my-4">
-            <p>Clicca qui sotto e i tuoi problemi si risolveranno. Tutti. Per sempre.</p>
-            <a class="btn btn-primary btn-lg" href="#" role="button" id="start-me-up">Sono scem@. Scegli per me</a>
+      <div class="jumbotron" id="intro">
+        <h1 class="display-4">Ciao amic@</h1>
+        <p class="lead">
+          Stai litigando con il tuo ragazzo / la tua ragazza per scegliere una
+          serie tv?
+        </p>
+        <hr class="my-4" />
+        <p>
+          Clicca qui sotto e i tuoi problemi si risolveranno. Tutti. Per sempre.
+        </p>
+        <a
+          class="btn btn-primary btn-lg"
+          href="#"
+          role="button"
+          id="start-me-up"
+          >Sono scem@. Scegli per me</a
+        >
+      </div>
+      <div class="card text-center rounded-sm d-none" id="series-card">
+        <div class="card-header">
+          Genere: Cyberpunk
         </div>
-        <div class="card text-center rounded-sm d-none" id="series-card">
-            <div class="card-header">
-                Genere: Cyberpunk
-            </div>
-            <div class="card-body">
-                <h2 class="card-title">TITLE</h2>
-                <h6 class="card-subtitle">created by Masamune Shirow</h6>
-                <img src="https://www.comics1.com/wp-content/uploads/2020/03/Ghost-in-the-Shell-Poster.jpg" alt="" style="max-width: 300px;">
-                <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-                <a href="#" class="btn btn-dark">BluffCatch!</a>
-            </div>
-            <div class="card-footer text-muted">
-                release date : 2020
-            </div>
+        <div class="card-body">
+          <h2 class="card-title">TITLE</h2>
+          <h6 class="card-subtitle">created by Masamune Shirow</h6>
+          <img
+            src="https://www.comics1.com/wp-content/uploads/2020/03/Ghost-in-the-Shell-Poster.jpg"
+            alt=""
+            style="max-width: 300px;"
+          />
+          <p class="card-text">
+            With supporting text below as a natural lead-in to additional
+            content.
+          </p>
+          <a href="#" class="btn btn-dark">BluffCatch!</a>
         </div>
+        <div class="card-footer text-muted">
+          release date : 2020
+        </div>
+      </div>
     </div>
     <footer>
-        <div class="container" style="padding: 3rem; color: seashell;">
-            <div class="row">
-                <div class="col-sm">
-                    BluffCatchSeries
-                </div>
-                <div class="col-sm">
-                    Developed by - Coding School Buddies
-                </div>
-                <div class="col-sm">
-                    Contacts
-                </div>
-            </div>
+      <div class="container" style="padding: 3rem; color: seashell;">
+        <div class="row">
+          <div class="col-sm">
+            BluffCatchSeries
+          </div>
+          <div class="col-sm">
+            Developed by - Coding School Buddies
+          </div>
+          <div class="col-sm">
+            Contacts
+          </div>
         </div>
+      </div>
     </footer>
     <script type="text/javascript" src="app.js"></script>
-</body>
-
+  </body>
 </html>
